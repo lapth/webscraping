@@ -1,0 +1,24 @@
+{
+  "name": "webscraping",
+  "version": "1.0.0",
+  "description": "Web Scraping",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "node --nolazy index.js",
+    "start": "node --nolazy index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lapth/webscraping.git"
+  },
+  "author": "Lap Tran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lapth/webscraping/issues"
+  },
+  "homepage": "https://github.com/lapth/webscraping#readme",
+  "dependencies": {
+    "puppeteer": "5.0.0"
+  }
+}
