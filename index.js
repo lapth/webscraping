@@ -9,8 +9,8 @@
 const jsdom = require("jsdom");
 const { JSDOM } = jsdom;
 
-const SOURCE_URL = 'https://www.computerworld.com/';
-const SELECTOR = '#page-wrapper > section > section > div.homepage-top-stories > div > div.item.item-1.three > a > div > div > div > h3';
+const SOURCE_URL = 'https://vnexpress.net/';
+const SELECTOR = 'body > section.section.section_topstory > div > div > div > div > div > div > ul > li:nth-child(2) > h3 > a';
 
 async function setTimeOut(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
