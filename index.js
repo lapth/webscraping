@@ -7,8 +7,8 @@
  var cheerio = require('cheerio');
  var request = require('request');
 
- const SOURCE_URL = 'https://en.wikipedia.org/wiki/Web_scraping';
- const ABOUT_SELECTOR = '#mw-content-text > div > p:nth-child(4)';
+ const SOURCE_URL = 'https://vnexpress.net/';
+ const ABOUT_SELECTOR = 'body > section.section.section_topstory > div > div > div > div > div > div > ul > li:nth-child(2) > h3 > a';
 
 function extractData() {
     console.log("extractData >> START");
